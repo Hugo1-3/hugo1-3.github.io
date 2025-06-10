@@ -96,7 +96,9 @@ function animate() {
 
   requestAnimationFrame(animate);
 }
- document.addEventListener('click', function() {
+
+animate();
+document.addEventListener('click', function() {
       const musica = document.getElementById('musica');
       musica.play();
     }, { once: true });
