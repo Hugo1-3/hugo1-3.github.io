@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: black;
+  color: red;
+  font-family: "Cursive", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.Love__You {
+  text-align: center;
+  user-select: none;
+}
+
+h1, p {
+  margin: 20px 0;
+  font-size: 2em;
+  text-shadow: 0 0 10px red;
+}
+
+#teAmo {
+  color: red;
+  font-size: 2em;
+  text-shadow: 0 0 10px red;
+}
+
+.hidden {
+  display: none;
+}
+
+canvas {
+  width: 400px;
+  height: 400px;
+}
+
+#loveButton {
+  padding: 15px 30px;
+  background: pink;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 15px red;
+  transition: transform 0.3s;
+}
+
+#loveButton:hover {
+  transform: scale(1.1);
+}

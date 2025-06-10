@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: #200020;
+  color: pink;
+  font-family: "Cursive", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  animation: pulse 1s infinite;
+  text-shadow: 0 0 15px hotpink;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+canvas {
+  width: 400px;
+  height: 400px;
+}
+p{
+    text-align: center;
+    background-color: black;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 0, 255));
+    text-shadow: 3px 5px 5px;
+    color: white;
+    padding: px;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 30px;
+    box-shadow: 0 0 20px pink;
+    display: inline-block;
+}
