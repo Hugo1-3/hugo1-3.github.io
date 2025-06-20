@@ -61,5 +61,5 @@ const loveButton = document.getElementById('loveButton');
 loveButton.addEventListener('click', () => {
   setTimeout(() => {
     window.location.href = 'pagina2.html';
-  }, 4000); // espera 4 segundos antes de ir a la segunda página
+  }, 1000); // espera 4 segundos antes de ir a la segunda página
 });
